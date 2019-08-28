@@ -1,3 +1,5 @@
 venv/*
 .idea/*
-files
+files/*.pdf
+files/*.png
+
