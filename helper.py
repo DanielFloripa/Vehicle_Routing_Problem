@@ -8,7 +8,7 @@ class Models(object):
         self.name = name
         self.city = city
         self.state = state
-        self.uniq_id = f'{name.replace(" ", "_")}__{city.replace(" ", "_")}__{state}'
+        self.uniq_id = f'{name.replace(" ", "_")}__{state}'
         self.lat = float(origin_lat)
         self.lng = float(origin_lng)
         self.destination_city = destination_city or city
@@ -21,10 +21,10 @@ class Models(object):
     def euclidean_distance(self, origin, destination):
         return self.dist(origin.coord, destination.coord)
 
-    def get_distance(self, truck, cargo, destination):
+    def get_distance(self, truck, cargo, destination, truck_returns=False):
         pickup_cargo = self.euclidean_distance(truck, cargo)
         delivery_cargo = self.euclidean_distance(cargo, destination)
-        back_truck = self.euclidean_distance(destination, truck)
+        back_truck = self.euclidean_distance(destination, truck) if truck_returns else 0
         return pickup_cargo + delivery_cargo + back_truck
 
     @staticmethod

@@ -1,7 +1,6 @@
 from truck import Truck
 from cargo import Cargo
 from helper import LoadData
-from numpy import inf
 
 
 """Given a list of trucks and their current locations and a list of cargos and their pickup and
@@ -22,18 +21,22 @@ if __name__ == "__main__":
     trucks = LoadData(Truck, "files/trucks.csv")
     all_distances = {}
 
+    print("\nBest map between cargo and trucks is: ")
     for cargo in cargos.list:
-        distances = []
-        winner = inf
-        for truck in trucks.list:
-            dist = truck.get_distance(truck.origin, cargo.origin, cargo.destination)
-            if dist < winner:
-                winner = dist
-                cargo.can_be_carried_by = truck
-                cargo.will_travel = dist
-            distances.append(dist)
-        print(f"{cargo.uniq_id}: {cargo.can_be_carried_by.uniq_id} {cargo.will_travel}")
-        distances.sort()
-        all_distances[f'{cargo.uniq_id}'] = distances
 
-    print(all_distances)
+        for truck in trucks.list:
+            dist = truck.get_distance(truck.origin, cargo.origin, cargo.destination, truck_returns=True)
+            if dist < cargo.will_travel_shortest_distance:
+                shortest_distance = dist
+                cargo.can_be_carried_by = truck
+                cargo.will_travel_shortest_distance = dist
+            cargo.potential_distances.append(dist)
+
+        trucks.list.remove(cargo.can_be_carried_by)
+        print(f"Cargo: {cargo.uniq_id} will be carried by {cargo.can_be_carried_by.uniq_id} and will travel: {cargo.will_travel_shortest_distance}")
+        cargo.potential_distances.sort()
+        all_distances[cargo.uniq_id] = cargo.potential_distances
+
+    print("\nAll possible distances is: ")
+    for k, v in all_distances.items():
+        print(k, v)
