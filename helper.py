@@ -4,7 +4,8 @@ import numpy
 
 class Models(object):
 
-    def __init__(self, name, city, state, origin_lat, origin_lng, destination_city=None, destination_state=None, destination_lat=None, destination_lng=None):
+    def __init__(self, name, city, state, origin_lat, origin_lng,
+                 destination_city=None, destination_state=None, destination_lat=None, destination_lng=None):
         self.name = name
         self.city = city
         self.state = state
@@ -15,24 +16,11 @@ class Models(object):
         self.destination_state = destination_state or state
         self.destination_lat = float(destination_lat or origin_lat)
         self.destination_lng = float(destination_lng or origin_lng)
-        self.origin = Coordinate(self.lat, self.lng)
-        self.destination = Coordinate(self.destination_lat, self.destination_lng)
-
-    def euclidean_distance(self, origin, destination):
-        return self.dist(origin.coord, destination.coord)
-
-    def get_distance(self, truck, cargo, destination, truck_returns=False):
-        pickup_cargo = self.euclidean_distance(truck, cargo)
-        delivery_cargo = self.euclidean_distance(cargo, destination)
-        back_truck = self.euclidean_distance(destination, truck) if truck_returns else 0
-        return pickup_cargo + delivery_cargo + back_truck
-
-    @staticmethod
-    def dist(x, y):
-        return numpy.sqrt(numpy.sum((x - y) ** 2))
+        self.origin = Coordinates(self.lat, self.lng)
+        self.destination = Coordinates(self.destination_lat, self.destination_lng)
 
 
-class Coordinate(object):
+class Coordinates(object):
     def __init__(self, lat, lng):
         self.lat = float(lat)
         self.lng = float(lng)
@@ -55,10 +43,3 @@ class LoadData(object):
         with open(self.csv_file, "r") as fp:
             load = csv.reader(fp)
             return [line for line in load]
-
-
-class UnitTest(object):
-
-    def __init__(self, file):
-        self.file = file
-        self.coordinates = [0,0]

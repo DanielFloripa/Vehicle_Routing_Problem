@@ -1,4 +1,7 @@
 import unittest
+from truck import Truck
+from cargo import Cargo
+
 
 
 class MyTestCase(unittest.TestCase):
