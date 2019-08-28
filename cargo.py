@@ -1,6 +1,4 @@
 from helper import Models
-import random
-from math import sqrt
 import numpy as np
 
 
