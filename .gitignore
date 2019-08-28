@@ -2,4 +2,4 @@ venv/*
 .idea/*
 files/*.pdf
 files/*.png
-
+*.pyc
