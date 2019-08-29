@@ -1,6 +1,8 @@
 import unittest
 from truck import Truck
 from cargo import Cargo
+from load_data import LoadData
+
 
 
 class MyTestCase(unittest.TestCase):
@@ -13,12 +15,14 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(distance, 5.0)
 
     def test_truck_route_pickup_cargo_deliver_cargo(self):
+
         self.assertEqual(True, False)
 
     def test_truck_route_pickup_cargo_deliver_cargo_come_back(self):
         self.assertEqual(True, False)
 
     def test_load_data_from_file(self):
+        data = LoadData
         self.assertEqual(True, False)
 
     def test_get_map_cargo_truck(self):
