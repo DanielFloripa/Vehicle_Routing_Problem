@@ -1,4 +1,4 @@
-import csv
+
 import numpy
 
 
@@ -9,7 +9,7 @@ class Models(object):
         self.name = name
         self.city = city
         self.state = state
-        self.uniq_id = f'{name.replace(" ", "_")}__{state}'
+        self.id = f'{name.replace(" ", "_")}__{state}'
         self.lat = float(origin_lat)
         self.lng = float(origin_lng)
         self.destination_city = destination_city or city

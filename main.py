@@ -1,25 +1,7 @@
+from load_data import LoadData
 from truck import Truck
 from cargo import Cargo
-from load_data import LoadData
-
-
-def get_map_cargo_truck(truck_returns=False):
-    all_distances = {}
-    list_cargos = cargos.list[:]
-    list_trucks = trucks.list[:]
-
-    for cargo in list_cargos:
-        for truck in list_trucks:
-            dist = truck.move_truck_to(cargo.origin, cargo.destination, truck_returns=truck_returns)
-            if dist < cargo.will_travel_shortest_distance:
-                cargo.can_be_carried_by = truck
-                cargo.will_travel_shortest_distance = dist
-            cargo.potential_distances.append(dist)
-        list_trucks.remove(cargo.can_be_carried_by)
-        print(f"Cargo {cargo.uniq_id} will be carried by {cargo.can_be_carried_by.uniq_id} and will travel: {cargo.will_travel_shortest_distance}")
-        cargo.potential_distances.sort()
-        all_distances[cargo.uniq_id] = cargo.potential_distances
-    return list_cargos, all_distances
+from freight_broker import FreightBroker
 
 
 if __name__ == "__main__":
@@ -28,11 +10,16 @@ if __name__ == "__main__":
     trucks = LoadData(Truck, "files/trucks.csv")
 
     print("\nBest map between cargo and trucks (truck returns to origin)")
-    map_match_with_truck_returns, distances_with_returns = get_map_cargo_truck(truck_returns=True)
+    loadsmart_truck_returns = FreightBroker(cargos.list[:], trucks.list[:], truck_returns_to_home=True)
+
+    loadsmart_truck_returns.map_cargo_to_trucks()
+    loadsmart_truck_returns.print_cargo_map()
+    loadsmart_truck_returns.print_all_distances()
 
     print("\nBest map between cargo and trucks (truck don't returns to origin)")
-    map_match, distances = get_map_cargo_truck()
+    loadsmart = FreightBroker(cargos.list[:], trucks.list[:])
 
-    print("\nAll possible distances is: ")
-    for k, v in distances.items():
-        print(k, v)
+    loadsmart.map_cargo_to_trucks()
+    loadsmart.print_cargo_map()
+    loadsmart.print_all_distances()
+    loadsmart.save_results()
