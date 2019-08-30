@@ -1,4 +1,4 @@
-from models import Models
+from src.models import Models
 import numpy as np
 
 

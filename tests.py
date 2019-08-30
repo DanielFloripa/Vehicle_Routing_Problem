@@ -1,11 +1,16 @@
 import unittest
-from truck import Truck
-from cargo import Cargo
-from freight_broker import FreightBroker
-from load_data import LoadData
+from src.truck import Truck
+from src.cargo import Cargo
+from src.freight_broker import FreightBroker
+from src.load_data import LoadData
 
 
 class MyTestCase(unittest.TestCase):
+
+    def test_load_data_from_file(self):
+        cargos = LoadData(Cargo, "files/cargo.csv")
+        self.assertEqual(cargos.list[0].name, "Light bulbs")
+
     def test_sample_distance_euclidean_distance(self):
         """
         Sample data and result is based on:
@@ -15,10 +20,6 @@ class MyTestCase(unittest.TestCase):
         object2 = Cargo(['name2', 'city2', 'state2', -2, 2])
         distance = object1.euclidean_distance(object2.destination)
         self.assertEqual(distance, 5.0)
-
-    def test_load_data_from_file(self):
-        cargos = LoadData(Cargo, "files/cargo.csv")
-        self.assertEqual(cargos.list[0].name, "Light bulbs")
 
     def test_route_pickup_cargo_deliver_cargo(self):
         """

@@ -1,7 +1,7 @@
-from load_data import LoadData
-from truck import Truck
-from cargo import Cargo
-from freight_broker import FreightBroker
+from src.freight_broker import FreightBroker
+from src.load_data import LoadData
+from src.truck import Truck
+from src.cargo import Cargo
 
 
 if __name__ == "__main__":
@@ -14,11 +14,10 @@ if __name__ == "__main__":
 
     loadsmart_truck_returns.map_cargo_to_trucks()
     loadsmart_truck_returns.print_cargo_map()
-    loadsmart_truck_returns.print_all_distances()
 
     print("\nBest map between cargo and trucks (truck don't returns to origin)")
     loadsmart = FreightBroker(cargos.list, trucks.list)
 
     loadsmart.map_cargo_to_trucks()
     loadsmart.print_cargo_map()
-    loadsmart.print_all_distances()
+    # loadsmart.print_all_distances()
