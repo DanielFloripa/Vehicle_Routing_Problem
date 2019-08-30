@@ -1,321 +1,1164 @@
 {
-  "Light_bulbs__MO": {
-    "Viking_Products_Of_Austin_Incustin__TN": 10.585608859969954,
-    "Hartford_Plastics_Incartford__AL": 11.286443090116073,
-    "Efrain_Morales_Diazorwalk__MO": 11.815645143461458,
-    "Jeffery_Allan_Luiacine__AL": 12.650211762199666,
-    "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL": 13.520053011705567,
-    "Jeffrey_A_Shepardypsum__GA": 13.539986298083953,
-    "High_Pines_Farm_Llcontello__IL": 13.835420835146056,
-    "Martinez_Transport_Llcdaho_Falls__IL": 13.835420835146056,
-    "Jacques_N_Faucherochester__KS": 13.969937594473219,
-    "Fish-Bones_Towingew_York__WI": 14.189016456530739,
-    "Jevin_Q_Watsonillsboro__GA": 14.895963644304938,
-    "Sidhu_Trucking_Incarrisburg__TX": 15.530606193590055,
-    "Ibrahim_Chimandalpharetta__OH": 16.165709573694297,
-    "Robert_Robertsonairhope__WI": 16.266034165370836,
-    "Paul_J_Krez_Companyorton_Grove__NC": 16.339727058090947,
-    "Kjellberg'S_Carpet_Oneuffalo__OH": 16.389504708755393,
-    "Wisebuys_Stores_Incouverneur__WV": 16.734768798965032,
-    "Filippo_Lumaroallston__TX": 17.492068832696216,
-    "Allen_R_Pruittrown_City__TX": 17.492068832696216,
-    "Gary_Lee_Wilcoxpencer__WI": 17.511375447228108,
-    "Macomb_Iron_Llchesterfield__OH": 17.611836984743015,
-    "Dupree_Testing_Services_Incutchinson__TX": 17.63349836244287,
-    "Ricardo_Juradoacramento__VA": 19.394592712049466,
-    "Peet'S_Tree_Serviceinterport__TX": 19.82326285373998,
-    "Turenne_Auto_Body_Llchorp__TX": 19.82326285373998,
-    "I_N_H_Relocation_Services_Incoodbridge__TX": 20.077055734590235,
-    "Michael_J_Geenenaukauna__TX": 21.16751454510711,
-    "Jwj_Interests_Incealy__MD": 21.62756262634978,
-    "James_Haas_Al_Haas_Shelly_Haasairfield__MD": 22.380014120272136,
-    "Sullivans'_Homestead_Inclympia__FL": 22.65952310961955,
-    "Arachus_Incashville__PA": 23.167829407860367,
-    "Arrow_Towing_Llcent__NJ": 23.749709479701053,
-    "Scott_Cassidylanchardville__CO": 24.107108782310174,
-    "Rubye_Hunterincolnton__NJ": 24.301071423430198,
-    "Como_Construction_Llcottstown__NJ": 24.314265085398727,
-    "Jorge_L_Denisollywood__CO": 27.039405543287852,
-    "Vincent_Rodriguezansas_City__AZ": 30.591586390689354,
-    "Empire_Of_Dirt_Llcquality__ME": 30.65670948070337,
-    "Wayne_E_Bollinauvoo__UT": 31.213559820582333,
-    "Ramiro_Castilloucson__UT": 31.235112198076788,
-    "Dawna_L_Zanderppleton__WA": 39.33126018922718,
-    "Beyond_Landscape_&_Design_Llcilsonville__CA": 40.87206513936154,
-    "John_Bianchiake_Havasu_City__WA": 42.774097041551045,
-    "Loren_Martinrand_Junction__OR": 43.08349047449968
-  },
-  "Recyclables__VA": {
-    "Ricardo_Juradoacramento__VA": 10.376996409265375,
-    "Paul_J_Krez_Companyorton_Grove__NC": 10.82291987363259,
-    "Wisebuys_Stores_Incouverneur__WV": 10.97013251408438,
-    "Kjellberg'S_Carpet_Oneuffalo__OH": 12.379193411174358,
-    "Jwj_Interests_Incealy__MD": 12.80655005093908,
-    "Macomb_Iron_Llchesterfield__OH": 13.0655150970246,
-    "James_Haas_Al_Haas_Shelly_Haasairfield__MD": 13.615961074994418,
-    "Jeffrey_A_Shepardypsum__GA": 13.64656901027427,
-    "Jevin_Q_Watsonillsboro__GA": 13.758083763615794,
-    "Ibrahim_Chimandalpharetta__OH": 14.029679152297696,
-    "Arachus_Incashville__PA": 14.643501996207974,
-    "Arrow_Towing_Llcent__NJ": 15.219418876510277,
-    "Rubye_Hunterincolnton__NJ": 15.645900709946996,
-    "Como_Construction_Llcottstown__NJ": 15.768086901331417,
-    "Hartford_Plastics_Incartford__AL": 16.143552399895015,
-    "Jeffery_Allan_Luiacine__AL": 16.673948957559567,
-    "High_Pines_Farm_Llcontello__IL": 17.15304776951544,
-    "Martinez_Transport_Llcdaho_Falls__IL": 17.15304776951544,
-    "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL": 17.429477908080663,
-    "Robert_Robertsonairhope__WI": 19.118791596952768,
-    "Fish-Bones_Towingew_York__WI": 19.240233745212755,
-    "Sullivans'_Homestead_Inclympia__FL": 19.326754441670808,
-    "Gary_Lee_Wilcoxpencer__WI": 20.972061258365457,
-    "Efrain_Morales_Diazorwalk__MO": 21.010821388825924,
-    "Empire_Of_Dirt_Llcquality__ME": 22.363413823634943,
-    "Jacques_N_Faucherochester__KS": 22.88361072935531,
-    "Sidhu_Trucking_Incarrisburg__TX": 23.987371190077795,
-    "Filippo_Lumaroallston__TX": 24.917512466641952,
-    "Allen_R_Pruittrown_City__TX": 24.917512466641952,
-    "Dupree_Testing_Services_Incutchinson__TX": 25.188301331236026,
-    "Viking_Products_Of_Austin_Incustin__TN": 25.53788763385314,
-    "Peet'S_Tree_Serviceinterport__TX": 27.912678818300527,
-    "Turenne_Auto_Body_Llchorp__TX": 27.912678818300527,
-    "I_N_H_Relocation_Services_Incoodbridge__TX": 28.168826448005067,
-    "Michael_J_Geenenaukauna__TX": 30.249278388116412,
-    "Scott_Cassidylanchardville__CO": 33.20484744369969,
-    "Jorge_L_Denisollywood__CO": 36.217868288060885,
-    "Vincent_Rodriguezansas_City__AZ": 39.812911281683114,
-    "Wayne_E_Bollinauvoo__UT": 40.2475746034607,
-    "Ramiro_Castilloucson__UT": 40.271716801902386,
-    "Dawna_L_Zanderppleton__WA": 48.16620129735972,
-    "Beyond_Landscape_&_Design_Llcilsonville__CA": 50.09263348170778,
-    "John_Bianchiake_Havasu_City__WA": 51.58182100743208,
-    "Loren_Martinrand_Junction__OR": 52.02904196223322
-  },
-  "Apples__OH": {
-    "Kjellberg'S_Carpet_Oneuffalo__OH": 39.466578361344574,
-    "Wisebuys_Stores_Incouverneur__WV": 40.31076679486443,
-    "Ibrahim_Chimandalpharetta__OH": 40.58708100833484,
-    "Macomb_Iron_Llchesterfield__OH": 40.81250076176136,
-    "Paul_J_Krez_Companyorton_Grove__NC": 43.559734671885884,
-    "High_Pines_Farm_Llcontello__IL": 43.80778268315948,
-    "Martinez_Transport_Llcdaho_Falls__IL": 43.80778268315948,
-    "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL": 44.15478363505022,
-    "Jeffrey_A_Shepardypsum__GA": 44.348809479040824,
-    "Jwj_Interests_Incealy__MD": 45.2196465582944,
-    "Jevin_Q_Watsonillsboro__GA": 45.40995165294294,
-    "Robert_Robertsonairhope__WI": 45.57700816806614,
-    "Hartford_Plastics_Incartford__AL": 45.761891423019385,
-    "James_Haas_Al_Haas_Shelly_Haasairfield__MD": 45.86240378359805,
-    "Fish-Bones_Towingew_York__WI": 45.9409467359135,
-    "Arachus_Incashville__PA": 46.45295821942404,
-    "Jeffery_Allan_Luiacine__AL": 46.948557705119974,
-    "Arrow_Towing_Llcent__NJ": 47.014090733575756,
-    "Gary_Lee_Wilcoxpencer__WI": 47.42590771443049,
-    "Como_Construction_Llcottstown__NJ": 47.56683897159921,
-    "Rubye_Hunterincolnton__NJ": 47.61186447871942,
-    "Efrain_Morales_Diazorwalk__MO": 49.04522622114143,
-    "Jacques_N_Faucherochester__KS": 50.49001879659714,
-    "Sullivans'_Homestead_Inclympia__FL": 52.7430903121696,
-    "Sidhu_Trucking_Incarrisburg__TX": 53.05497432236577,
-    "Empire_Of_Dirt_Llcquality__ME": 53.74348054431131,
-    "Filippo_Lumaroallston__TX": 54.622569205238975,
-    "Allen_R_Pruittrown_City__TX": 54.622569205238975,
-    "Dupree_Testing_Services_Incutchinson__TX": 54.829960932765474,
-    "Peet'S_Tree_Serviceinterport__TX": 57.27675448123597,
-    "Turenne_Auto_Body_Llchorp__TX": 57.27675448123597,
-    "I_N_H_Relocation_Services_Incoodbridge__TX": 57.5338920009071,
-    "Michael_J_Geenenaukauna__TX": 58.70323481566847,
-    "Scott_Cassidylanchardville__CO": 60.760074431569606,
-    "Jorge_L_Denisollywood__CO": 63.89549333753372,
-    "Wayne_E_Bollinauvoo__UT": 67.65827973218614,
-    "Ramiro_Castilloucson__UT": 67.68538366135289,
-    "Vincent_Rodriguezansas_City__AZ": 67.84138910933612,
-    "Dawna_L_Zanderppleton__WA": 75.34634312434986,
-    "Beyond_Landscape_&_Design_Llcilsonville__CA": 77.860080692751,
-    "Viking_Products_Of_Austin_Incustin__TN": 78.71249595846996,
-    "John_Bianchiake_Havasu_City__WA": 78.72876692518516,
-    "Loren_Martinrand_Junction__OR": 79.29090628674273,
-    "Ricardo_Juradoacramento__VA": 86.63888235969327
-  },
-  "Wood__KY": {
-    "Ibrahim_Chimandalpharetta__OH": 13.44739054166271,
-    "Wisebuys_Stores_Incouverneur__WV": 13.651916474661178,
-    "Macomb_Iron_Llchesterfield__OH": 14.476799983565282,
-    "High_Pines_Farm_Llcontello__IL": 14.665850621471796,
-    "Martinez_Transport_Llcdaho_Falls__IL": 14.665850621471796,
-    "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL": 14.879800347431416,
-    "Jeffrey_A_Shepardypsum__GA": 14.91189078342078,
-    "Paul_J_Krez_Companyorton_Grove__NC": 15.295919541221474,
-    "Hartford_Plastics_Incartford__AL": 15.807897277975623,
-    "Jevin_Q_Watsonillsboro__GA": 16.253540438152196,
-    "Fish-Bones_Towingew_York__WI": 16.677911006962155,
-    "Robert_Robertsonairhope__WI": 16.98968567109153,
-    "Jeffery_Allan_Luiacine__AL": 17.127239310851014,
-    "Jwj_Interests_Incealy__MD": 18.686331175183817,
-    "Gary_Lee_Wilcoxpencer__WI": 18.826639489659176,
-    "Efrain_Morales_Diazorwalk__MO": 18.991091979438295,
-    "James_Haas_Al_Haas_Shelly_Haasairfield__MD": 19.38536662748642,
-    "Arachus_Incashville__PA": 20.069432090929666,
-    "Jacques_N_Faucherochester__KS": 20.559931639023976,
-    "Arrow_Towing_Llcent__NJ": 20.64193908979257,
-    "Como_Construction_Llcottstown__NJ": 21.20155684306838,
-    "Rubye_Hunterincolnton__NJ": 21.220709548616888,
-    "Viking_Products_Of_Austin_Incustin__TN": 21.489425007595646,
-    "Sidhu_Trucking_Incarrisburg__TX": 22.9453941855535,
-    "Sullivans'_Homestead_Inclympia__FL": 24.16071404196834,
-    "Filippo_Lumaroallston__TX": 24.563991263818963,
-    "Allen_R_Pruittrown_City__TX": 24.563991263818963,
-    "Dupree_Testing_Services_Incutchinson__TX": 24.762575238423647,
-    "Kjellberg'S_Carpet_Oneuffalo__OH": 26.134499100464815,
-    "Peet'S_Tree_Serviceinterport__TX": 27.177313651186218,
-    "Turenne_Auto_Body_Llchorp__TX": 27.177313651186218,
-    "I_N_H_Relocation_Services_Incoodbridge__TX": 27.43416422490469,
-    "Empire_Of_Dirt_Llcquality__ME": 27.458923626133206,
-    "Michael_J_Geenenaukauna__TX": 28.615908612913543,
-    "Ricardo_Juradoacramento__VA": 30.64315162545285,
-    "Scott_Cassidylanchardville__CO": 30.87824998055121,
-    "Jorge_L_Denisollywood__CO": 33.9752699360847,
-    "Vincent_Rodriguezansas_City__AZ": 37.83153055068277,
-    "Wayne_E_Bollinauvoo__UT": 37.84321428567052,
-    "Ramiro_Castilloucson__UT": 37.86904817124073,
-    "Dawna_L_Zanderppleton__WA": 45.6509021400029,
-    "Beyond_Landscape_&_Design_Llcilsonville__CA": 47.92352159258125,
-    "John_Bianchiake_Havasu_City__WA": 49.05374181374389,
-    "Loren_Martinrand_Junction__OR": 49.553168702311616
-  },
-  "Cell_phones__NC": {
-    "Paul_J_Krez_Companyorton_Grove__NC": 41.592620094270536,
-    "Wisebuys_Stores_Incouverneur__WV": 44.460682096027014,
-    "Jevin_Q_Watsonillsboro__GA": 44.55302294098444,
-    "Jeffrey_A_Shepardypsum__GA": 44.68768620905035,
-    "Macomb_Iron_Llchesterfield__OH": 46.7112648400145,
-    "Jwj_Interests_Incealy__MD": 46.7691814293466,
-    "Hartford_Plastics_Incartford__AL": 47.33718278752599,
-    "James_Haas_Al_Haas_Shelly_Haasairfield__MD": 47.57936376522159,
-    "Jeffery_Allan_Luiacine__AL": 47.65298862341807,
-    "Arachus_Incashville__PA": 48.6568791274572,
-    "Arrow_Towing_Llcent__NJ": 49.221927999674335,
-    "Rubye_Hunterincolnton__NJ": 49.607054047479394,
-    "High_Pines_Farm_Llcontello__IL": 49.72499124194744,
-    "Martinez_Transport_Llcdaho_Falls__IL": 49.72499124194744,
-    "Como_Construction_Llcottstown__NJ": 49.75835354479868,
-    "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL": 49.923719314681094,
-    "Sullivans'_Homestead_Inclympia__FL": 50.43374170594557,
-    "Fish-Bones_Towingew_York__WI": 51.703401400317546,
-    "Robert_Robertsonairhope__WI": 51.968993674461174,
-    "Efrain_Morales_Diazorwalk__MO": 52.60920641021822,
-    "Gary_Lee_Wilcoxpencer__WI": 53.82358741638304,
-    "Jacques_N_Faucherochester__KS": 54.64847107861564,
-    "Sidhu_Trucking_Incarrisburg__TX": 55.14801184984626,
-    "Filippo_Lumaroallston__TX": 55.896807904590865,
-    "Allen_R_Pruittrown_City__TX": 55.896807904590865,
-    "Dupree_Testing_Services_Incutchinson__TX": 56.180438345713256,
-    "Empire_Of_Dirt_Llcquality__ME": 56.35062296990776,
-    "Peet'S_Tree_Serviceinterport__TX": 58.95482336027848,
-    "Turenne_Auto_Body_Llchorp__TX": 58.95482336027848,
-    "I_N_H_Relocation_Services_Incoodbridge__TX": 59.209113060163475,
-    "Michael_J_Geenenaukauna__TX": 61.55956409072451,
-    "Scott_Cassidylanchardville__CO": 64.89446610871855,
-    "Jorge_L_Denisollywood__CO": 67.82901405212576,
-    "Vincent_Rodriguezansas_City__AZ": 71.24737670050041,
-    "Wayne_E_Bollinauvoo__UT": 71.9880768929411,
-    "Ramiro_Castilloucson__UT": 72.01041799930587,
-    "Dawna_L_Zanderppleton__WA": 80.03116557802987,
-    "Beyond_Landscape_&_Design_Llcilsonville__CA": 81.62035642314213,
-    "Viking_Products_Of_Austin_Incustin__TN": 81.87890219121086,
-    "John_Bianchiake_Havasu_City__WA": 83.46337605461233,
-    "Loren_Martinrand_Junction__OR": 83.83298831144366,
-    "Kjellberg'S_Carpet_Oneuffalo__OH": 84.88776667724468,
-    "Ibrahim_Chimandalpharetta__OH": 85.26542923596145,
-    "Ricardo_Juradoacramento__VA": 87.53134413421532
-  },
-  "Wood__MN": {
-    "Fish-Bones_Towingew_York__WI": 9.697226600203976,
-    "Gary_Lee_Wilcoxpencer__WI": 9.894695130852245,
-    "Robert_Robertsonairhope__WI": 10.856689165227849,
-    "Jacques_N_Faucherochester__KS": 11.346876462081589,
-    "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL": 11.507346335231466,
-    "High_Pines_Farm_Llcontello__IL": 11.818502863962642,
-    "Martinez_Transport_Llcdaho_Falls__IL": 11.818502863962642,
-    "Efrain_Morales_Diazorwalk__MO": 12.838737935302884,
-    "Hartford_Plastics_Incartford__AL": 16.821509351399747,
-    "Macomb_Iron_Llchesterfield__OH": 17.557406474988877,
-    "Sidhu_Trucking_Incarrisburg__TX": 17.758827050018954,
-    "Jeffery_Allan_Luiacine__AL": 18.276520471123764,
-    "Wisebuys_Stores_Incouverneur__WV": 18.339132134895358,
-    "Jeffrey_A_Shepardypsum__GA": 18.401776240194348,
-    "Scott_Cassidylanchardville__CO": 18.415497358339987,
-    "Michael_J_Geenenaukauna__TX": 19.64157145554551,
-    "Jevin_Q_Watsonillsboro__GA": 19.945041813311065,
-    "Ibrahim_Chimandalpharetta__OH": 20.06538322415683,
-    "Dupree_Testing_Services_Incutchinson__TX": 20.577376141126855,
-    "Filippo_Lumaroallston__TX": 20.623266230067102,
-    "Allen_R_Pruittrown_City__TX": 20.623266230067102,
-    "Viking_Products_Of_Austin_Incustin__TN": 21.073844859626817,
-    "Peet'S_Tree_Serviceinterport__TX": 21.471630118059664,
-    "Turenne_Auto_Body_Llchorp__TX": 21.471630118059664,
-    "I_N_H_Relocation_Services_Incoodbridge__TX": 21.666257546212744,
-    "Jorge_L_Denisollywood__CO": 21.680230371088765,
-    "Kjellberg'S_Carpet_Oneuffalo__OH": 22.847896749970523,
-    "Jwj_Interests_Incealy__MD": 23.078706668292543,
-    "James_Haas_Al_Haas_Shelly_Haasairfield__MD": 23.60699928715585,
-    "Arachus_Incashville__PA": 23.913779381032708,
-    "Arrow_Towing_Llcent__NJ": 24.39805676159804,
-    "Wayne_E_Bollinauvoo__UT": 24.550528491668448,
-    "Ramiro_Castilloucson__UT": 24.58404530587847,
-    "Como_Construction_Llcottstown__NJ": 24.889598618528556,
-    "Rubye_Hunterincolnton__NJ": 25.041565838680388,
-    "Vincent_Rodriguezansas_City__AZ": 26.393448550637284,
-    "Sullivans'_Homestead_Inclympia__FL": 28.0677852931615,
-    "Empire_Of_Dirt_Llcquality__ME": 30.0407955440821,
-    "Dawna_L_Zanderppleton__WA": 31.624604952291097,
-    "Ricardo_Juradoacramento__VA": 31.769603612343882,
-    "John_Bianchiake_Havasu_City__WA": 34.927013359901984,
-    "Beyond_Landscape_&_Design_Llcilsonville__CA": 35.358143442430205,
-    "Loren_Martinrand_Junction__OR": 35.682417180931175
-  },
-  "Oranges__IA": {
-    "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL": 5.991105895719467,
-    "Efrain_Morales_Diazorwalk__MO": 6.229702938462894,
-    "Jacques_N_Faucherochester__KS": 6.278962423223625,
-    "High_Pines_Farm_Llcontello__IL": 6.463973778470782,
-    "Martinez_Transport_Llcdaho_Falls__IL": 6.463973778470782,
-    "Robert_Robertsonairhope__WI": 7.670819521906087,
-    "Gary_Lee_Wilcoxpencer__WI": 8.251773699274677,
-    "Hartford_Plastics_Incartford__AL": 9.445065199200597,
-    "Jeffery_Allan_Luiacine__AL": 10.885133281528407,
-    "Jeffrey_A_Shepardypsum__GA": 11.210033803766237,
-    "Sidhu_Trucking_Incarrisburg__TX": 11.506105774201387,
-    "Macomb_Iron_Llchesterfield__OH": 12.232909442084562,
-    "Wisebuys_Stores_Incouverneur__WV": 12.323137119714175,
-    "Jevin_Q_Watsonillsboro__GA": 12.720574649851812,
-    "Viking_Products_Of_Austin_Incustin__TN": 12.96926132553434,
-    "Filippo_Lumaroallston__TX": 14.146530581145335,
-    "Allen_R_Pruittrown_City__TX": 14.146530581145335,
-    "Dupree_Testing_Services_Incutchinson__TX": 14.174708693713065,
-    "Michael_J_Geenenaukauna__TX": 15.255558597866369,
-    "Peet'S_Tree_Serviceinterport__TX": 15.65356877906412,
-    "Turenne_Auto_Body_Llchorp__TX": 15.65356877906412,
-    "Ibrahim_Chimandalpharetta__OH": 15.698393666313113,
-    "I_N_H_Relocation_Services_Incoodbridge__TX": 15.881625351382716,
-    "Scott_Cassidylanchardville__CO": 16.248814456504412,
-    "Jwj_Interests_Incealy__MD": 17.33644674870815,
-    "Kjellberg'S_Carpet_Oneuffalo__OH": 17.8332738829398,
-    "James_Haas_Al_Haas_Shelly_Haasairfield__MD": 17.981160902368117,
-    "Arachus_Incashville__PA": 18.517593331543583,
-    "Arrow_Towing_Llcent__NJ": 19.060520076653074,
-    "Jorge_L_Denisollywood__CO": 19.433930028999345,
-    "Como_Construction_Llcottstown__NJ": 19.598911701656554,
-    "Rubye_Hunterincolnton__NJ": 19.677384419809385,
-    "Sullivans'_Homestead_Inclympia__FL": 20.75553493179003,
-    "Wayne_E_Bollinauvoo__UT": 23.09531290790307,
-    "Ramiro_Castilloucson__UT": 23.12266754649922,
-    "Vincent_Rodriguezansas_City__AZ": 23.623101629973895,
-    "Empire_Of_Dirt_Llcquality__ME": 25.424533765645762,
-    "Ricardo_Juradoacramento__VA": 26.18803523601442,
-    "Dawna_L_Zanderppleton__WA": 30.826556799899908,
-    "Beyond_Landscape_&_Design_Llcilsonville__CA": 33.401946531774655,
-    "John_Bianchiake_Havasu_City__WA": 34.22681895772996,
-    "Loren_Martinrand_Junction__OR": 34.74347965197728
-  }
+  "Light_bulbs__MO": [
+    {
+      "id": "Viking_Products_Of_Austin_Incustin__TN",
+      "distance": 10.585608859969954
+    },
+    {
+      "id": "Hartford_Plastics_Incartford__AL",
+      "distance": 11.286443090116073
+    },
+    {
+      "id": "Efrain_Morales_Diazorwalk__MO",
+      "distance": 11.815645143461458
+    },
+    {
+      "id": "Jeffery_Allan_Luiacine__AL",
+      "distance": 12.650211762199666
+    },
+    {
+      "id": "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL",
+      "distance": 13.520053011705567
+    },
+    {
+      "id": "Jeffrey_A_Shepardypsum__GA",
+      "distance": 13.539986298083953
+    },
+    {
+      "id": "High_Pines_Farm_Llcontello__IL",
+      "distance": 13.835420835146056
+    },
+    {
+      "id": "Martinez_Transport_Llcdaho_Falls__IL",
+      "distance": 13.835420835146056
+    },
+    {
+      "id": "Jacques_N_Faucherochester__KS",
+      "distance": 13.969937594473219
+    },
+    {
+      "id": "Fish-Bones_Towingew_York__WI",
+      "distance": 14.189016456530739
+    },
+    {
+      "id": "Jevin_Q_Watsonillsboro__GA",
+      "distance": 14.895963644304938
+    },
+    {
+      "id": "Sidhu_Trucking_Incarrisburg__TX",
+      "distance": 15.530606193590055
+    },
+    {
+      "id": "Ibrahim_Chimandalpharetta__OH",
+      "distance": 16.165709573694297
+    },
+    {
+      "id": "Robert_Robertsonairhope__WI",
+      "distance": 16.266034165370836
+    },
+    {
+      "id": "Paul_J_Krez_Companyorton_Grove__NC",
+      "distance": 16.339727058090947
+    },
+    {
+      "id": "Kjellberg'S_Carpet_Oneuffalo__OH",
+      "distance": 16.389504708755393
+    },
+    {
+      "id": "Wisebuys_Stores_Incouverneur__WV",
+      "distance": 16.734768798965032
+    },
+    {
+      "id": "Filippo_Lumaroallston__TX",
+      "distance": 17.492068832696216
+    },
+    {
+      "id": "Allen_R_Pruittrown_City__TX",
+      "distance": 17.492068832696216
+    },
+    {
+      "id": "Gary_Lee_Wilcoxpencer__WI",
+      "distance": 17.511375447228108
+    },
+    {
+      "id": "Macomb_Iron_Llchesterfield__OH",
+      "distance": 17.611836984743015
+    },
+    {
+      "id": "Dupree_Testing_Services_Incutchinson__TX",
+      "distance": 17.63349836244287
+    },
+    {
+      "id": "Ricardo_Juradoacramento__VA",
+      "distance": 19.394592712049466
+    },
+    {
+      "id": "Peet'S_Tree_Serviceinterport__TX",
+      "distance": 19.82326285373998
+    },
+    {
+      "id": "Turenne_Auto_Body_Llchorp__TX",
+      "distance": 19.82326285373998
+    },
+    {
+      "id": "I_N_H_Relocation_Services_Incoodbridge__TX",
+      "distance": 20.077055734590235
+    },
+    {
+      "id": "Michael_J_Geenenaukauna__TX",
+      "distance": 21.16751454510711
+    },
+    {
+      "id": "Jwj_Interests_Incealy__MD",
+      "distance": 21.62756262634978
+    },
+    {
+      "id": "James_Haas_Al_Haas_Shelly_Haasairfield__MD",
+      "distance": 22.380014120272136
+    },
+    {
+      "id": "Sullivans'_Homestead_Inclympia__FL",
+      "distance": 22.65952310961955
+    },
+    {
+      "id": "Arachus_Incashville__PA",
+      "distance": 23.167829407860367
+    },
+    {
+      "id": "Arrow_Towing_Llcent__NJ",
+      "distance": 23.749709479701053
+    },
+    {
+      "id": "Scott_Cassidylanchardville__CO",
+      "distance": 24.107108782310174
+    },
+    {
+      "id": "Rubye_Hunterincolnton__NJ",
+      "distance": 24.301071423430198
+    },
+    {
+      "id": "Como_Construction_Llcottstown__NJ",
+      "distance": 24.314265085398727
+    },
+    {
+      "id": "Jorge_L_Denisollywood__CO",
+      "distance": 27.039405543287852
+    },
+    {
+      "id": "Vincent_Rodriguezansas_City__AZ",
+      "distance": 30.591586390689354
+    },
+    {
+      "id": "Empire_Of_Dirt_Llcquality__ME",
+      "distance": 30.65670948070337
+    },
+    {
+      "id": "Wayne_E_Bollinauvoo__UT",
+      "distance": 31.213559820582333
+    },
+    {
+      "id": "Ramiro_Castilloucson__UT",
+      "distance": 31.235112198076788
+    },
+    {
+      "id": "Dawna_L_Zanderppleton__WA",
+      "distance": 39.33126018922718
+    },
+    {
+      "id": "Beyond_Landscape_&_Design_Llcilsonville__CA",
+      "distance": 40.87206513936154
+    },
+    {
+      "id": "John_Bianchiake_Havasu_City__WA",
+      "distance": 42.774097041551045
+    },
+    {
+      "id": "Loren_Martinrand_Junction__OR",
+      "distance": 43.08349047449968
+    }
+  ],
+  "Recyclables__VA": [
+    {
+      "id": "Ricardo_Juradoacramento__VA",
+      "distance": 10.376996409265375
+    },
+    {
+      "id": "Paul_J_Krez_Companyorton_Grove__NC",
+      "distance": 10.82291987363259
+    },
+    {
+      "id": "Wisebuys_Stores_Incouverneur__WV",
+      "distance": 10.97013251408438
+    },
+    {
+      "id": "Kjellberg'S_Carpet_Oneuffalo__OH",
+      "distance": 12.379193411174358
+    },
+    {
+      "id": "Jwj_Interests_Incealy__MD",
+      "distance": 12.80655005093908
+    },
+    {
+      "id": "Macomb_Iron_Llchesterfield__OH",
+      "distance": 13.0655150970246
+    },
+    {
+      "id": "James_Haas_Al_Haas_Shelly_Haasairfield__MD",
+      "distance": 13.615961074994418
+    },
+    {
+      "id": "Jeffrey_A_Shepardypsum__GA",
+      "distance": 13.64656901027427
+    },
+    {
+      "id": "Jevin_Q_Watsonillsboro__GA",
+      "distance": 13.758083763615794
+    },
+    {
+      "id": "Ibrahim_Chimandalpharetta__OH",
+      "distance": 14.029679152297696
+    },
+    {
+      "id": "Arachus_Incashville__PA",
+      "distance": 14.643501996207974
+    },
+    {
+      "id": "Arrow_Towing_Llcent__NJ",
+      "distance": 15.219418876510277
+    },
+    {
+      "id": "Rubye_Hunterincolnton__NJ",
+      "distance": 15.645900709946996
+    },
+    {
+      "id": "Como_Construction_Llcottstown__NJ",
+      "distance": 15.768086901331417
+    },
+    {
+      "id": "Hartford_Plastics_Incartford__AL",
+      "distance": 16.143552399895015
+    },
+    {
+      "id": "Jeffery_Allan_Luiacine__AL",
+      "distance": 16.673948957559567
+    },
+    {
+      "id": "High_Pines_Farm_Llcontello__IL",
+      "distance": 17.15304776951544
+    },
+    {
+      "id": "Martinez_Transport_Llcdaho_Falls__IL",
+      "distance": 17.15304776951544
+    },
+    {
+      "id": "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL",
+      "distance": 17.429477908080663
+    },
+    {
+      "id": "Robert_Robertsonairhope__WI",
+      "distance": 19.118791596952768
+    },
+    {
+      "id": "Fish-Bones_Towingew_York__WI",
+      "distance": 19.240233745212755
+    },
+    {
+      "id": "Sullivans'_Homestead_Inclympia__FL",
+      "distance": 19.326754441670808
+    },
+    {
+      "id": "Gary_Lee_Wilcoxpencer__WI",
+      "distance": 20.972061258365457
+    },
+    {
+      "id": "Efrain_Morales_Diazorwalk__MO",
+      "distance": 21.010821388825924
+    },
+    {
+      "id": "Empire_Of_Dirt_Llcquality__ME",
+      "distance": 22.363413823634943
+    },
+    {
+      "id": "Jacques_N_Faucherochester__KS",
+      "distance": 22.88361072935531
+    },
+    {
+      "id": "Sidhu_Trucking_Incarrisburg__TX",
+      "distance": 23.987371190077795
+    },
+    {
+      "id": "Filippo_Lumaroallston__TX",
+      "distance": 24.917512466641952
+    },
+    {
+      "id": "Allen_R_Pruittrown_City__TX",
+      "distance": 24.917512466641952
+    },
+    {
+      "id": "Dupree_Testing_Services_Incutchinson__TX",
+      "distance": 25.188301331236026
+    },
+    {
+      "id": "Peet'S_Tree_Serviceinterport__TX",
+      "distance": 27.912678818300527
+    },
+    {
+      "id": "Turenne_Auto_Body_Llchorp__TX",
+      "distance": 27.912678818300527
+    },
+    {
+      "id": "I_N_H_Relocation_Services_Incoodbridge__TX",
+      "distance": 28.168826448005067
+    },
+    {
+      "id": "Michael_J_Geenenaukauna__TX",
+      "distance": 30.249278388116412
+    },
+    {
+      "id": "Scott_Cassidylanchardville__CO",
+      "distance": 33.20484744369969
+    },
+    {
+      "id": "Jorge_L_Denisollywood__CO",
+      "distance": 36.217868288060885
+    },
+    {
+      "id": "Vincent_Rodriguezansas_City__AZ",
+      "distance": 39.812911281683114
+    },
+    {
+      "id": "Wayne_E_Bollinauvoo__UT",
+      "distance": 40.2475746034607
+    },
+    {
+      "id": "Ramiro_Castilloucson__UT",
+      "distance": 40.271716801902386
+    },
+    {
+      "id": "Dawna_L_Zanderppleton__WA",
+      "distance": 48.16620129735972
+    },
+    {
+      "id": "Beyond_Landscape_&_Design_Llcilsonville__CA",
+      "distance": 50.09263348170778
+    },
+    {
+      "id": "John_Bianchiake_Havasu_City__WA",
+      "distance": 51.58182100743208
+    },
+    {
+      "id": "Loren_Martinrand_Junction__OR",
+      "distance": 52.02904196223322
+    }
+  ],
+  "Apples__OH": [
+    {
+      "id": "Kjellberg'S_Carpet_Oneuffalo__OH",
+      "distance": 39.466578361344574
+    },
+    {
+      "id": "Wisebuys_Stores_Incouverneur__WV",
+      "distance": 40.31076679486443
+    },
+    {
+      "id": "Ibrahim_Chimandalpharetta__OH",
+      "distance": 40.58708100833484
+    },
+    {
+      "id": "Macomb_Iron_Llchesterfield__OH",
+      "distance": 40.81250076176136
+    },
+    {
+      "id": "Paul_J_Krez_Companyorton_Grove__NC",
+      "distance": 43.559734671885884
+    },
+    {
+      "id": "High_Pines_Farm_Llcontello__IL",
+      "distance": 43.80778268315948
+    },
+    {
+      "id": "Martinez_Transport_Llcdaho_Falls__IL",
+      "distance": 43.80778268315948
+    },
+    {
+      "id": "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL",
+      "distance": 44.15478363505022
+    },
+    {
+      "id": "Jeffrey_A_Shepardypsum__GA",
+      "distance": 44.348809479040824
+    },
+    {
+      "id": "Jwj_Interests_Incealy__MD",
+      "distance": 45.2196465582944
+    },
+    {
+      "id": "Jevin_Q_Watsonillsboro__GA",
+      "distance": 45.40995165294294
+    },
+    {
+      "id": "Robert_Robertsonairhope__WI",
+      "distance": 45.57700816806614
+    },
+    {
+      "id": "Hartford_Plastics_Incartford__AL",
+      "distance": 45.761891423019385
+    },
+    {
+      "id": "James_Haas_Al_Haas_Shelly_Haasairfield__MD",
+      "distance": 45.86240378359805
+    },
+    {
+      "id": "Fish-Bones_Towingew_York__WI",
+      "distance": 45.9409467359135
+    },
+    {
+      "id": "Arachus_Incashville__PA",
+      "distance": 46.45295821942404
+    },
+    {
+      "id": "Jeffery_Allan_Luiacine__AL",
+      "distance": 46.948557705119974
+    },
+    {
+      "id": "Arrow_Towing_Llcent__NJ",
+      "distance": 47.014090733575756
+    },
+    {
+      "id": "Gary_Lee_Wilcoxpencer__WI",
+      "distance": 47.42590771443049
+    },
+    {
+      "id": "Como_Construction_Llcottstown__NJ",
+      "distance": 47.56683897159921
+    },
+    {
+      "id": "Rubye_Hunterincolnton__NJ",
+      "distance": 47.61186447871942
+    },
+    {
+      "id": "Efrain_Morales_Diazorwalk__MO",
+      "distance": 49.04522622114143
+    },
+    {
+      "id": "Jacques_N_Faucherochester__KS",
+      "distance": 50.49001879659714
+    },
+    {
+      "id": "Sullivans'_Homestead_Inclympia__FL",
+      "distance": 52.7430903121696
+    },
+    {
+      "id": "Sidhu_Trucking_Incarrisburg__TX",
+      "distance": 53.05497432236577
+    },
+    {
+      "id": "Empire_Of_Dirt_Llcquality__ME",
+      "distance": 53.74348054431131
+    },
+    {
+      "id": "Filippo_Lumaroallston__TX",
+      "distance": 54.622569205238975
+    },
+    {
+      "id": "Allen_R_Pruittrown_City__TX",
+      "distance": 54.622569205238975
+    },
+    {
+      "id": "Dupree_Testing_Services_Incutchinson__TX",
+      "distance": 54.829960932765474
+    },
+    {
+      "id": "Peet'S_Tree_Serviceinterport__TX",
+      "distance": 57.27675448123597
+    },
+    {
+      "id": "Turenne_Auto_Body_Llchorp__TX",
+      "distance": 57.27675448123597
+    },
+    {
+      "id": "I_N_H_Relocation_Services_Incoodbridge__TX",
+      "distance": 57.5338920009071
+    },
+    {
+      "id": "Michael_J_Geenenaukauna__TX",
+      "distance": 58.70323481566847
+    },
+    {
+      "id": "Scott_Cassidylanchardville__CO",
+      "distance": 60.760074431569606
+    },
+    {
+      "id": "Jorge_L_Denisollywood__CO",
+      "distance": 63.89549333753372
+    },
+    {
+      "id": "Wayne_E_Bollinauvoo__UT",
+      "distance": 67.65827973218614
+    },
+    {
+      "id": "Ramiro_Castilloucson__UT",
+      "distance": 67.68538366135289
+    },
+    {
+      "id": "Vincent_Rodriguezansas_City__AZ",
+      "distance": 67.84138910933612
+    },
+    {
+      "id": "Dawna_L_Zanderppleton__WA",
+      "distance": 75.34634312434986
+    },
+    {
+      "id": "Beyond_Landscape_&_Design_Llcilsonville__CA",
+      "distance": 77.860080692751
+    },
+    {
+      "id": "John_Bianchiake_Havasu_City__WA",
+      "distance": 78.72876692518516
+    },
+    {
+      "id": "Loren_Martinrand_Junction__OR",
+      "distance": 79.29090628674273
+    }
+  ],
+  "Wood__KY": [
+    {
+      "id": "Ibrahim_Chimandalpharetta__OH",
+      "distance": 13.44739054166271
+    },
+    {
+      "id": "Wisebuys_Stores_Incouverneur__WV",
+      "distance": 13.651916474661178
+    },
+    {
+      "id": "Macomb_Iron_Llchesterfield__OH",
+      "distance": 14.476799983565282
+    },
+    {
+      "id": "High_Pines_Farm_Llcontello__IL",
+      "distance": 14.665850621471796
+    },
+    {
+      "id": "Martinez_Transport_Llcdaho_Falls__IL",
+      "distance": 14.665850621471796
+    },
+    {
+      "id": "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL",
+      "distance": 14.879800347431416
+    },
+    {
+      "id": "Jeffrey_A_Shepardypsum__GA",
+      "distance": 14.91189078342078
+    },
+    {
+      "id": "Paul_J_Krez_Companyorton_Grove__NC",
+      "distance": 15.295919541221474
+    },
+    {
+      "id": "Hartford_Plastics_Incartford__AL",
+      "distance": 15.807897277975623
+    },
+    {
+      "id": "Jevin_Q_Watsonillsboro__GA",
+      "distance": 16.253540438152196
+    },
+    {
+      "id": "Fish-Bones_Towingew_York__WI",
+      "distance": 16.677911006962155
+    },
+    {
+      "id": "Robert_Robertsonairhope__WI",
+      "distance": 16.98968567109153
+    },
+    {
+      "id": "Jeffery_Allan_Luiacine__AL",
+      "distance": 17.127239310851014
+    },
+    {
+      "id": "Jwj_Interests_Incealy__MD",
+      "distance": 18.686331175183817
+    },
+    {
+      "id": "Gary_Lee_Wilcoxpencer__WI",
+      "distance": 18.826639489659176
+    },
+    {
+      "id": "Efrain_Morales_Diazorwalk__MO",
+      "distance": 18.991091979438295
+    },
+    {
+      "id": "James_Haas_Al_Haas_Shelly_Haasairfield__MD",
+      "distance": 19.38536662748642
+    },
+    {
+      "id": "Arachus_Incashville__PA",
+      "distance": 20.069432090929666
+    },
+    {
+      "id": "Jacques_N_Faucherochester__KS",
+      "distance": 20.559931639023976
+    },
+    {
+      "id": "Arrow_Towing_Llcent__NJ",
+      "distance": 20.64193908979257
+    },
+    {
+      "id": "Como_Construction_Llcottstown__NJ",
+      "distance": 21.20155684306838
+    },
+    {
+      "id": "Rubye_Hunterincolnton__NJ",
+      "distance": 21.220709548616888
+    },
+    {
+      "id": "Sidhu_Trucking_Incarrisburg__TX",
+      "distance": 22.9453941855535
+    },
+    {
+      "id": "Sullivans'_Homestead_Inclympia__FL",
+      "distance": 24.16071404196834
+    },
+    {
+      "id": "Filippo_Lumaroallston__TX",
+      "distance": 24.563991263818963
+    },
+    {
+      "id": "Allen_R_Pruittrown_City__TX",
+      "distance": 24.563991263818963
+    },
+    {
+      "id": "Dupree_Testing_Services_Incutchinson__TX",
+      "distance": 24.762575238423647
+    },
+    {
+      "id": "Peet'S_Tree_Serviceinterport__TX",
+      "distance": 27.177313651186218
+    },
+    {
+      "id": "Turenne_Auto_Body_Llchorp__TX",
+      "distance": 27.177313651186218
+    },
+    {
+      "id": "I_N_H_Relocation_Services_Incoodbridge__TX",
+      "distance": 27.43416422490469
+    },
+    {
+      "id": "Empire_Of_Dirt_Llcquality__ME",
+      "distance": 27.458923626133206
+    },
+    {
+      "id": "Michael_J_Geenenaukauna__TX",
+      "distance": 28.615908612913543
+    },
+    {
+      "id": "Scott_Cassidylanchardville__CO",
+      "distance": 30.87824998055121
+    },
+    {
+      "id": "Jorge_L_Denisollywood__CO",
+      "distance": 33.9752699360847
+    },
+    {
+      "id": "Vincent_Rodriguezansas_City__AZ",
+      "distance": 37.83153055068277
+    },
+    {
+      "id": "Wayne_E_Bollinauvoo__UT",
+      "distance": 37.84321428567052
+    },
+    {
+      "id": "Ramiro_Castilloucson__UT",
+      "distance": 37.86904817124073
+    },
+    {
+      "id": "Dawna_L_Zanderppleton__WA",
+      "distance": 45.6509021400029
+    },
+    {
+      "id": "Beyond_Landscape_&_Design_Llcilsonville__CA",
+      "distance": 47.92352159258125
+    },
+    {
+      "id": "John_Bianchiake_Havasu_City__WA",
+      "distance": 49.05374181374389
+    },
+    {
+      "id": "Loren_Martinrand_Junction__OR",
+      "distance": 49.553168702311616
+    }
+  ],
+  "Cell_phones__NC": [
+    {
+      "id": "Paul_J_Krez_Companyorton_Grove__NC",
+      "distance": 41.592620094270536
+    },
+    {
+      "id": "Wisebuys_Stores_Incouverneur__WV",
+      "distance": 44.460682096027014
+    },
+    {
+      "id": "Jevin_Q_Watsonillsboro__GA",
+      "distance": 44.55302294098444
+    },
+    {
+      "id": "Jeffrey_A_Shepardypsum__GA",
+      "distance": 44.68768620905035
+    },
+    {
+      "id": "Macomb_Iron_Llchesterfield__OH",
+      "distance": 46.7112648400145
+    },
+    {
+      "id": "Jwj_Interests_Incealy__MD",
+      "distance": 46.7691814293466
+    },
+    {
+      "id": "Hartford_Plastics_Incartford__AL",
+      "distance": 47.33718278752599
+    },
+    {
+      "id": "James_Haas_Al_Haas_Shelly_Haasairfield__MD",
+      "distance": 47.57936376522159
+    },
+    {
+      "id": "Jeffery_Allan_Luiacine__AL",
+      "distance": 47.65298862341807
+    },
+    {
+      "id": "Arachus_Incashville__PA",
+      "distance": 48.6568791274572
+    },
+    {
+      "id": "Arrow_Towing_Llcent__NJ",
+      "distance": 49.221927999674335
+    },
+    {
+      "id": "Rubye_Hunterincolnton__NJ",
+      "distance": 49.607054047479394
+    },
+    {
+      "id": "High_Pines_Farm_Llcontello__IL",
+      "distance": 49.72499124194744
+    },
+    {
+      "id": "Martinez_Transport_Llcdaho_Falls__IL",
+      "distance": 49.72499124194744
+    },
+    {
+      "id": "Como_Construction_Llcottstown__NJ",
+      "distance": 49.75835354479868
+    },
+    {
+      "id": "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL",
+      "distance": 49.923719314681094
+    },
+    {
+      "id": "Sullivans'_Homestead_Inclympia__FL",
+      "distance": 50.43374170594557
+    },
+    {
+      "id": "Fish-Bones_Towingew_York__WI",
+      "distance": 51.703401400317546
+    },
+    {
+      "id": "Robert_Robertsonairhope__WI",
+      "distance": 51.968993674461174
+    },
+    {
+      "id": "Efrain_Morales_Diazorwalk__MO",
+      "distance": 52.60920641021822
+    },
+    {
+      "id": "Gary_Lee_Wilcoxpencer__WI",
+      "distance": 53.82358741638304
+    },
+    {
+      "id": "Jacques_N_Faucherochester__KS",
+      "distance": 54.64847107861564
+    },
+    {
+      "id": "Sidhu_Trucking_Incarrisburg__TX",
+      "distance": 55.14801184984626
+    },
+    {
+      "id": "Filippo_Lumaroallston__TX",
+      "distance": 55.896807904590865
+    },
+    {
+      "id": "Allen_R_Pruittrown_City__TX",
+      "distance": 55.896807904590865
+    },
+    {
+      "id": "Dupree_Testing_Services_Incutchinson__TX",
+      "distance": 56.180438345713256
+    },
+    {
+      "id": "Empire_Of_Dirt_Llcquality__ME",
+      "distance": 56.35062296990776
+    },
+    {
+      "id": "Peet'S_Tree_Serviceinterport__TX",
+      "distance": 58.95482336027848
+    },
+    {
+      "id": "Turenne_Auto_Body_Llchorp__TX",
+      "distance": 58.95482336027848
+    },
+    {
+      "id": "I_N_H_Relocation_Services_Incoodbridge__TX",
+      "distance": 59.209113060163475
+    },
+    {
+      "id": "Michael_J_Geenenaukauna__TX",
+      "distance": 61.55956409072451
+    },
+    {
+      "id": "Scott_Cassidylanchardville__CO",
+      "distance": 64.89446610871855
+    },
+    {
+      "id": "Jorge_L_Denisollywood__CO",
+      "distance": 67.82901405212576
+    },
+    {
+      "id": "Vincent_Rodriguezansas_City__AZ",
+      "distance": 71.24737670050041
+    },
+    {
+      "id": "Wayne_E_Bollinauvoo__UT",
+      "distance": 71.9880768929411
+    },
+    {
+      "id": "Ramiro_Castilloucson__UT",
+      "distance": 72.01041799930587
+    },
+    {
+      "id": "Dawna_L_Zanderppleton__WA",
+      "distance": 80.03116557802987
+    },
+    {
+      "id": "Beyond_Landscape_&_Design_Llcilsonville__CA",
+      "distance": 81.62035642314213
+    },
+    {
+      "id": "John_Bianchiake_Havasu_City__WA",
+      "distance": 83.46337605461233
+    },
+    {
+      "id": "Loren_Martinrand_Junction__OR",
+      "distance": 83.83298831144366
+    }
+  ],
+  "Wood__MN": [
+    {
+      "id": "Fish-Bones_Towingew_York__WI",
+      "distance": 9.697226600203976
+    },
+    {
+      "id": "Gary_Lee_Wilcoxpencer__WI",
+      "distance": 9.894695130852245
+    },
+    {
+      "id": "Robert_Robertsonairhope__WI",
+      "distance": 10.856689165227849
+    },
+    {
+      "id": "Jacques_N_Faucherochester__KS",
+      "distance": 11.346876462081589
+    },
+    {
+      "id": "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL",
+      "distance": 11.507346335231466
+    },
+    {
+      "id": "High_Pines_Farm_Llcontello__IL",
+      "distance": 11.818502863962642
+    },
+    {
+      "id": "Martinez_Transport_Llcdaho_Falls__IL",
+      "distance": 11.818502863962642
+    },
+    {
+      "id": "Efrain_Morales_Diazorwalk__MO",
+      "distance": 12.838737935302884
+    },
+    {
+      "id": "Hartford_Plastics_Incartford__AL",
+      "distance": 16.821509351399747
+    },
+    {
+      "id": "Macomb_Iron_Llchesterfield__OH",
+      "distance": 17.557406474988877
+    },
+    {
+      "id": "Sidhu_Trucking_Incarrisburg__TX",
+      "distance": 17.758827050018954
+    },
+    {
+      "id": "Jeffery_Allan_Luiacine__AL",
+      "distance": 18.276520471123764
+    },
+    {
+      "id": "Wisebuys_Stores_Incouverneur__WV",
+      "distance": 18.339132134895358
+    },
+    {
+      "id": "Jeffrey_A_Shepardypsum__GA",
+      "distance": 18.401776240194348
+    },
+    {
+      "id": "Scott_Cassidylanchardville__CO",
+      "distance": 18.415497358339987
+    },
+    {
+      "id": "Michael_J_Geenenaukauna__TX",
+      "distance": 19.64157145554551
+    },
+    {
+      "id": "Jevin_Q_Watsonillsboro__GA",
+      "distance": 19.945041813311065
+    },
+    {
+      "id": "Dupree_Testing_Services_Incutchinson__TX",
+      "distance": 20.577376141126855
+    },
+    {
+      "id": "Filippo_Lumaroallston__TX",
+      "distance": 20.623266230067102
+    },
+    {
+      "id": "Allen_R_Pruittrown_City__TX",
+      "distance": 20.623266230067102
+    },
+    {
+      "id": "Peet'S_Tree_Serviceinterport__TX",
+      "distance": 21.471630118059664
+    },
+    {
+      "id": "Turenne_Auto_Body_Llchorp__TX",
+      "distance": 21.471630118059664
+    },
+    {
+      "id": "I_N_H_Relocation_Services_Incoodbridge__TX",
+      "distance": 21.666257546212744
+    },
+    {
+      "id": "Jorge_L_Denisollywood__CO",
+      "distance": 21.680230371088765
+    },
+    {
+      "id": "Jwj_Interests_Incealy__MD",
+      "distance": 23.078706668292543
+    },
+    {
+      "id": "James_Haas_Al_Haas_Shelly_Haasairfield__MD",
+      "distance": 23.60699928715585
+    },
+    {
+      "id": "Arachus_Incashville__PA",
+      "distance": 23.913779381032708
+    },
+    {
+      "id": "Arrow_Towing_Llcent__NJ",
+      "distance": 24.39805676159804
+    },
+    {
+      "id": "Wayne_E_Bollinauvoo__UT",
+      "distance": 24.550528491668448
+    },
+    {
+      "id": "Ramiro_Castilloucson__UT",
+      "distance": 24.58404530587847
+    },
+    {
+      "id": "Como_Construction_Llcottstown__NJ",
+      "distance": 24.889598618528556
+    },
+    {
+      "id": "Rubye_Hunterincolnton__NJ",
+      "distance": 25.041565838680388
+    },
+    {
+      "id": "Vincent_Rodriguezansas_City__AZ",
+      "distance": 26.393448550637284
+    },
+    {
+      "id": "Sullivans'_Homestead_Inclympia__FL",
+      "distance": 28.0677852931615
+    },
+    {
+      "id": "Empire_Of_Dirt_Llcquality__ME",
+      "distance": 30.0407955440821
+    },
+    {
+      "id": "Dawna_L_Zanderppleton__WA",
+      "distance": 31.624604952291097
+    },
+    {
+      "id": "John_Bianchiake_Havasu_City__WA",
+      "distance": 34.927013359901984
+    },
+    {
+      "id": "Beyond_Landscape_&_Design_Llcilsonville__CA",
+      "distance": 35.358143442430205
+    },
+    {
+      "id": "Loren_Martinrand_Junction__OR",
+      "distance": 35.682417180931175
+    }
+  ],
+  "Oranges__IA": [
+    {
+      "id": "Edmon'S_Unique_Furniture_&_Stone_Gallery_Inc.Os_Angeles__IL",
+      "distance": 5.991105895719467
+    },
+    {
+      "id": "Efrain_Morales_Diazorwalk__MO",
+      "distance": 6.229702938462894
+    },
+    {
+      "id": "Jacques_N_Faucherochester__KS",
+      "distance": 6.278962423223625
+    },
+    {
+      "id": "High_Pines_Farm_Llcontello__IL",
+      "distance": 6.463973778470782
+    },
+    {
+      "id": "Martinez_Transport_Llcdaho_Falls__IL",
+      "distance": 6.463973778470782
+    },
+    {
+      "id": "Robert_Robertsonairhope__WI",
+      "distance": 7.670819521906087
+    },
+    {
+      "id": "Gary_Lee_Wilcoxpencer__WI",
+      "distance": 8.251773699274677
+    },
+    {
+      "id": "Hartford_Plastics_Incartford__AL",
+      "distance": 9.445065199200597
+    },
+    {
+      "id": "Jeffery_Allan_Luiacine__AL",
+      "distance": 10.885133281528407
+    },
+    {
+      "id": "Jeffrey_A_Shepardypsum__GA",
+      "distance": 11.210033803766237
+    },
+    {
+      "id": "Sidhu_Trucking_Incarrisburg__TX",
+      "distance": 11.506105774201387
+    },
+    {
+      "id": "Macomb_Iron_Llchesterfield__OH",
+      "distance": 12.232909442084562
+    },
+    {
+      "id": "Wisebuys_Stores_Incouverneur__WV",
+      "distance": 12.323137119714175
+    },
+    {
+      "id": "Jevin_Q_Watsonillsboro__GA",
+      "distance": 12.720574649851812
+    },
+    {
+      "id": "Filippo_Lumaroallston__TX",
+      "distance": 14.146530581145335
+    },
+    {
+      "id": "Allen_R_Pruittrown_City__TX",
+      "distance": 14.146530581145335
+    },
+    {
+      "id": "Dupree_Testing_Services_Incutchinson__TX",
+      "distance": 14.174708693713065
+    },
+    {
+      "id": "Michael_J_Geenenaukauna__TX",
+      "distance": 15.255558597866369
+    },
+    {
+      "id": "Peet'S_Tree_Serviceinterport__TX",
+      "distance": 15.65356877906412
+    },
+    {
+      "id": "Turenne_Auto_Body_Llchorp__TX",
+      "distance": 15.65356877906412
+    },
+    {
+      "id": "I_N_H_Relocation_Services_Incoodbridge__TX",
+      "distance": 15.881625351382716
+    },
+    {
+      "id": "Scott_Cassidylanchardville__CO",
+      "distance": 16.248814456504412
+    },
+    {
+      "id": "Jwj_Interests_Incealy__MD",
+      "distance": 17.33644674870815
+    },
+    {
+      "id": "James_Haas_Al_Haas_Shelly_Haasairfield__MD",
+      "distance": 17.981160902368117
+    },
+    {
+      "id": "Arachus_Incashville__PA",
+      "distance": 18.517593331543583
+    },
+    {
+      "id": "Arrow_Towing_Llcent__NJ",
+      "distance": 19.060520076653074
+    },
+    {
+      "id": "Jorge_L_Denisollywood__CO",
+      "distance": 19.433930028999345
+    },
+    {
+      "id": "Como_Construction_Llcottstown__NJ",
+      "distance": 19.598911701656554
+    },
+    {
+      "id": "Rubye_Hunterincolnton__NJ",
+      "distance": 19.677384419809385
+    },
+    {
+      "id": "Sullivans'_Homestead_Inclympia__FL",
+      "distance": 20.75553493179003
+    },
+    {
+      "id": "Wayne_E_Bollinauvoo__UT",
+      "distance": 23.09531290790307
+    },
+    {
+      "id": "Ramiro_Castilloucson__UT",
+      "distance": 23.12266754649922
+    },
+    {
+      "id": "Vincent_Rodriguezansas_City__AZ",
+      "distance": 23.623101629973895
+    },
+    {
+      "id": "Empire_Of_Dirt_Llcquality__ME",
+      "distance": 25.424533765645762
+    },
+    {
+      "id": "Dawna_L_Zanderppleton__WA",
+      "distance": 30.826556799899908
+    },
+    {
+      "id": "Beyond_Landscape_&_Design_Llcilsonville__CA",
+      "distance": 33.401946531774655
+    },
+    {
+      "id": "John_Bianchiake_Havasu_City__WA",
+      "distance": 34.22681895772996
+    },
+    {
+      "id": "Loren_Martinrand_Junction__OR",
+      "distance": 34.74347965197728
+    }
+  ]
 }

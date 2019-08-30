@@ -22,7 +22,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_route_pickup_cargo_deliver_cargo(self):
         """
-        Example from list index 1:
+        Example from list index 1 when truck don't returns to home:
             Cargo Recyclables__VA will be carried by
             Ricardo_Juradoacramento__VA and
             will travel: 10.376996409265375
@@ -37,7 +37,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_route_pickup_cargo_deliver_cargo_and_truck_returns_to_home(self):
         """
-        Example from list index 1:
+        Example from list index 1 when truck returns to home:
            Cargo Recyclables__VA will be carried by
            Paul_J_Krez_Companyorton_Grove__NC and
            will travel: 17.47186153481572
@@ -51,18 +51,19 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(loadsmart.cargos[1].shortest_distance, 17.47186153481572)
 
     def test_all_potential_distances_from_all_cargos(self):
+        """
+        Taking the results of a run without truck returns to home as an example,
+        compare all possible distances saved in file 'results.json'
+        """
         cargos = LoadData(Cargo, "files/cargo.csv")
         trucks = LoadData(Truck, "files/trucks.csv")
 
         loadsmart = FreightBroker(cargos.list, trucks.list)
         loadsmart.map_cargo_to_trucks()
 
-        results = LoadData(dict, "files/results.json").dict
+        results_from_file = LoadData(dict, "files/results.json").dict
 
-        self.assertDictEqual(loadsmart.all_distances, results)
-
-        #for product, potential_distance in loadsmart.all_distances:
-        #    print(product, potential_distance)
+        self.assertDictEqual(loadsmart.all_distances, results_from_file)
 
 
 if __name__ == '__main__':

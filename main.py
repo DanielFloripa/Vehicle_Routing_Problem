@@ -10,16 +10,15 @@ if __name__ == "__main__":
     trucks = LoadData(Truck, "files/trucks.csv")
 
     print("\nBest map between cargo and trucks (truck returns to origin)")
-    loadsmart_truck_returns = FreightBroker(cargos.list[:], trucks.list[:], truck_returns_to_home=True)
+    loadsmart_truck_returns = FreightBroker(cargos.list, trucks.list, truck_returns_to_home=True)
 
     loadsmart_truck_returns.map_cargo_to_trucks()
     loadsmart_truck_returns.print_cargo_map()
     loadsmart_truck_returns.print_all_distances()
 
     print("\nBest map between cargo and trucks (truck don't returns to origin)")
-    loadsmart = FreightBroker(cargos.list[:], trucks.list[:])
+    loadsmart = FreightBroker(cargos.list, trucks.list)
 
     loadsmart.map_cargo_to_trucks()
     loadsmart.print_cargo_map()
     loadsmart.print_all_distances()
-    loadsmart.save_results()

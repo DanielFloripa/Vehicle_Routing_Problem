@@ -7,5 +7,5 @@ class Cargo(Models):
         super().__init__(*element)
         self.truck_booking = None
         self.shortest_distance = np.Infinity
-        self.all_potential_distances = {}
+        self.all_potential_distances = []
 
