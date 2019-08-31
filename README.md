@@ -7,17 +7,24 @@ Please assume that each truck can only carry up to one cargo, each truck can onl
 
 There are 2 csv files: cargo.csv and trucks.csv. Cargo.csv is a list of cargos we need to move and trucks.csv is a list of trucks and their home city.
 
+## Main algorithm complexity:
+The main algorithm is located on `FreightBroker` class, at `map_cargo_to_trucks()` method.
+The space and time complexity is O(n²) considering `n` cargos and `m` trucks.
+
 ## Configuration:
 Requires only numpy, so use you favorite virtual environment (or not)
-> $ pip install -r requirements
+```console
+$ pip3 install -r requirements
+```
 
-Python version used for developement tests: 
+Python version used for development tests: 
 > Python 3.6
 
 ## Run tests:
-
-To execute them, just:
-> python3.6 tests.py
+To execute the tests, just:
+```console
+$ python3.6 tests.py
+```
 
 The description and expected results are described in each method. There are five tests:
 
@@ -28,18 +35,18 @@ The description and expected results are described in each method. There are fiv
 * test_all_potential_distances_from_all_cargos
 
 ## Run main execution:
-
 To execute:
-> python3.6 main.py
-
-In the `main.py` file, the execution is based on two possibilities:
+```console
+$ python3.6 main.py
+```
+In the `main.py` file, the implementation takes into account two possibilities:
 1. After the delivery of the cargo, the truck returns to home and this cost is tracked.
 2. The route tracking stops when the cargo is delivered.
 
 At the end of each possibility, the results are printed like the model:
-> Cargo {cargo.id} will be carried by {truck.id} will travel: {distance}
+```python
+"Cargo {cargo.id} will be carried by {truck.id} will travel: {distance}"
+```
 
-## Main algorithm complexity:
-
-The main algorithm is located on `FreightBroker` class, at `map_cargo_to_trucks()` method.
-The space and time complexity is O(n²) considering `n` Cargos and `m` trucks.
+### Legal notice:
+This source code is available under GPLv3.

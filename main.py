@@ -20,4 +20,6 @@ if __name__ == "__main__":
 
     loadsmart.map_cargo_to_trucks()
     loadsmart.print_cargo_map()
+
+    # With this method you can print all distances:
     # loadsmart.print_all_distances()
