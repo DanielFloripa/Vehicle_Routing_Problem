@@ -5,7 +5,7 @@ from src.freight_broker import FreightBroker
 from src.load_data import LoadData
 
 
-class MyTestCase(unittest.TestCase):
+class UnitTests(unittest.TestCase):
 
     def test_load_data_from_file(self):
         """
@@ -26,6 +26,13 @@ class MyTestCase(unittest.TestCase):
         distance = object1.euclidean_distance(object2.destination)
         self.assertEqual(distance, 5.0)
 
+
+class IntegrationTests(unittest.TestCase):
+
+    def setUp(self):
+        self.cargos = LoadData(Cargo, "files/cargo.csv")
+        self.trucks = LoadData(Truck, "files/trucks.csv")
+
     def test_route_pickup_cargo_deliver_cargo(self):
         """
         Example from list index 1 when truck don't returns to home:
@@ -33,38 +40,29 @@ class MyTestCase(unittest.TestCase):
         Ricardo_Juradoacramento__VA and
         will travel: 10.376996409265375
         """
-        cargos = LoadData(Cargo, "files/cargo.csv")
-        trucks = LoadData(Truck, "files/trucks.csv")
-
-        loadsmart = FreightBroker(cargos.list, trucks.list)
+        loadsmart = FreightBroker(self.cargos.list, self.trucks.list)
         loadsmart.map_cargo_to_trucks()
-
+        self.assertEqual(loadsmart.cargos[1].id, "Recyclables__VA")
         self.assertEqual(loadsmart.cargos[1].shortest_distance, 10.376996409265375)
 
     def test_route_pickup_cargo_deliver_cargo_and_truck_returns_to_home(self):
         """
         Example from list index 1 when truck returns to home:
         Cargo Recyclables__VA will be carried by
-        Paul_J_Krez_Companyorton_Grove__NC and
-        will travel: 17.47186153481572
+        Jorge_L_Denisollywood__COand and
+        will travel: 77.59998023656951
         """
-        cargos = LoadData(Cargo, "files/cargo.csv")
-        trucks = LoadData(Truck, "files/trucks.csv")
-
-        loadsmart = FreightBroker(cargos.list, trucks.list, truck_returns_to_home=True)
+        loadsmart = FreightBroker(self.cargos.list, self.trucks.list, truck_returns_to_home=True)
         loadsmart.map_cargo_to_trucks()
-
-        self.assertEqual(loadsmart.cargos[1].shortest_distance, 17.47186153481572)
+        self.assertEqual(loadsmart.cargos[2].id, 'Apples__OH')
+        self.assertEqual(loadsmart.cargos[2].shortest_distance, 77.59998023656951)
 
     def test_all_potential_distances_from_all_cargos(self):
         """
         Taking the results of a run without truck returns to home as an example,
         compare all possible distances saved in file 'results.json'
         """
-        cargos = LoadData(Cargo, "files/cargo.csv")
-        trucks = LoadData(Truck, "files/trucks.csv")
-
-        loadsmart = FreightBroker(cargos.list, trucks.list)
+        loadsmart = FreightBroker(self.cargos.list, self.trucks.list)
         loadsmart.map_cargo_to_trucks()
 
         results_from_file = LoadData(dict, "files/results.json").dict

@@ -28,8 +28,11 @@ $ python3.6 tests.py
 
 The description and expected results are described in each method. There are five tests:
 
+Two unit tests:
 * test_load_data_from_file
 * test_sample_distance_euclidean_distance
+
+Three integration tests:
 * test_route_pickup_cargo_deliver_cargo
 * test_route_pickup_cargo_deliver_cargo_and_truck_returns_to_home
 * test_all_potential_distances_from_all_cargos
