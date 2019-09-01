@@ -4,7 +4,7 @@ from src.truck import Truck
 from src.cargo import Cargo
 
 """
-Using python3.6 in this development
+Requires python3.6
 """
 
 if __name__ == "__main__":
