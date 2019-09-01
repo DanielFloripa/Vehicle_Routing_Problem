@@ -13,18 +13,19 @@ class UnitTests(unittest.TestCase):
         'Light bulbs' and the last is 'Oranges'
         """
         cargos = LoadData(Cargo, "files/cargo.csv")
-        self.assertEqual(cargos.list[0].name, "Light bulbs")
-        self.assertEqual(cargos.list[-1].name, "Oranges")
+        self.assertEqual(cargos.list[0].name, "Light bulbs", msg=self.test_load_data_from_file.__doc__)
+        self.assertEqual(cargos.list[-1].name, "Oranges", msg=self.test_load_data_from_file.__doc__)
 
     def test_sample_distance_euclidean_distance(self):
         """
+        Euclidean distance between (2,-1) and (-2,2) == 5.0
         Sample data and result is based on:
         https://www.cut-the-knot.org/pythagoras/DistanceFormula.shtml
         """
-        object1 = Truck(['name1', 'city1', 'state1', 2, -1])
-        object2 = Cargo(['name2', 'city2', 'state2', -2, 2])
+        object1 = Truck(['a1', 'b1', 'c1', 2, -1])
+        object2 = Cargo(['a2', 'b2', 'c2', -2, 2])
         distance = object1.euclidean_distance(object2.destination)
-        self.assertEqual(distance, 5.0)
+        self.assertEqual(distance, 5.0, msg=self.test_sample_distance_euclidean_distance.__doc__)
 
 
 class IntegrationTests(unittest.TestCase):

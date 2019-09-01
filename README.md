@@ -5,19 +5,19 @@ Given a list of trucks and their current locations and a list of cargos and thei
 
 Please assume that each truck can only carry up to one cargo, each truck can only make up to one trip and that some trucks may not be used at all.
 
-There are 2 csv files: cargo.csv and trucks.csv. Cargo.csv is a list of cargos we need to move and trucks.csv is a list of trucks and their home city.
+There are 2 csv files: _cargo.csv_ and _trucks.csv_. Cargo.csv is a list of cargos we need to move and trucks.csv is a list of trucks and their home city.
 
-## Main algorithm complexity:
+## Main algorithm and complexity:
 The main algorithm is located on `FreightBroker` class, at `map_cargo_to_trucks()` method.
 The space and time complexity is O(n²) considering `n` cargos and `m` trucks.
 
 ## Configuration:
-Requires only numpy, so use you favorite virtual environment (or not)
+Requires only numpy, so use your favorite virtual environment (or not)
 ```console
 $ pip3 install -r requirements
 ```
 
-Python version used for development tests: 
+Python version used for the development and tests: 
 > Python 3.6
 
 ## Run tests:
@@ -26,7 +26,7 @@ To execute the tests, just:
 $ python3.6 tests.py
 ```
 
-The description and expected results are described in each method. There are five tests:
+The description and expected results are described in each test method. There are five tests:
 
 Two unit tests:
 * test_load_data_from_file
@@ -51,5 +51,5 @@ At the end of each possibility, the results are printed like the model:
 "Cargo {cargo.id} will be carried by {truck.id} will travel: {distance}"
 ```
 
-### Legal notice:
+### License:
 This source code is available under GPLv3.
